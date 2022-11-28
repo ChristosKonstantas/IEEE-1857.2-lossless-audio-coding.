@@ -9,3 +9,7 @@ In this code we implement the IEEE 1857.2 lossless audio coding extension using 
 4) Adaptive Golomb-Rice coding with exhaustive search for the best k where m=2^k -> slow encoding fast decoding.
 5) Adaptive Exponential Golomb-coding with exhaustive search for the best k -> slow encoding fast decoding.
 6) Adaptive Golomb-Rice coding -> fast encoding fast decoding. 
+
+If you want to process the results and understand deeper what is going on, the analytical report of this code is my thesis: see THESIS report.pdf file!
+
+Thank you very much for studying this code!
