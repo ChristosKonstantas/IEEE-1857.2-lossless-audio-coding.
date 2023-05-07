@@ -12,4 +12,7 @@ In this code we implement the IEEE 1857.2 lossless audio coding extension using 
 
 If you want to process the results and understand deeper what is going on, the analytical report of this code is my thesis: see THESIS report.pdf file!
 
-Thank you very much for studying this code!
+
+We apply the linear prediction model with fixed block size on the digital audio signal and then its probabilities are exploited by the source coding techniques.
+
+
