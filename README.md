@@ -1,6 +1,6 @@
 # IEEE-1857.2-lossless-audio-coding.
 *It works very well, but to do it in realistic scenarios we must consider C++ implementation of the IEEE 1857.2 encoder and decoder as long as the functions that are being used. If you would like to participate
-in this you can directly communicate with me*
+in this you can directly communicate with me. Same techniques can be used for ECG signal lossless compression.*
 
 Run IEEE_1857dot2.m file from your directory.
 
