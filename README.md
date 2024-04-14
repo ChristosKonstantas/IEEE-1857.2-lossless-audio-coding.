@@ -18,3 +18,4 @@ If you want to process the results and understand deeper what is going on, the a
 We apply the linear prediction model with fixed block size on the digital audio signal and then its probabilities are exploited by the source coding techniques.
 
 
+Execute: IEEE_1857dot2.m
