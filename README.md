@@ -3,17 +3,13 @@
 Run IEEE_1857dot2.m file from your directory.
 
 In this code we implement the IEEE 1857.2 lossless audio coding extension using 5 different source coding techniques: 
-1) Arithmetic Coding using the actual probability mass function of the source (benchmark).
+1) [Arithmetic Coding](https://en.wikipedia.org/wiki/Arithmetic_coding) using the actual probability mass function of the source (benchmark).
 2) Arithmetic Coding using an estimated probability mass function of the source.
-3) Golomb Coding choosing m.
+3) [Golomb Coding](https://en.wikipedia.org/wiki/Golomb_coding) choosing m.
 4) Adaptive Golomb-Rice coding with exhaustive search for the best k where m=2^k -> slow encoding fast decoding.
-5) Adaptive Exponential Golomb-coding with exhaustive search for the best k -> slow encoding fast decoding.
-6) Adaptive Golomb-Rice coding -> fast encoding fast decoding. 
+5) [Adaptive Exponential Golomb-coding](https://en.wikipedia.org/wiki/Exponential-Golomb_coding) with exhaustive search for the best k -> slow encoding fast decoding.
+6) [Adaptive Golomb-Rice coding](http://m.reznik.org/papers/ICASSP04_prediction_residual.pdf) -> fast encoding fast decoding. 
 
-If you want to process the results and understand deeper what is going on, the analytical report of this code is my thesis: see THESIS report.pdf file!
-
-
-We apply the linear prediction model with fixed block size on the digital audio signal and then its probabilities are exploited by the source coding techniques.
 
 
 Execute: IEEE_1857dot2.m
