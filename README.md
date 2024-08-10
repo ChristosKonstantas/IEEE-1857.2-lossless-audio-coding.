@@ -22,15 +22,20 @@ Execute: IEEE_1857dot2.m
 
 ---
 
+
 **General implementation**
 
 ![image](https://github.com/user-attachments/assets/adac4221-f27f-46d0-a145-6fbd6f4dfef4)
 
 
 **Linear predictive modeling (Analysis/Synthesis)**
+
+
 ![image](https://github.com/user-attachments/assets/5d798604-fbe6-49f0-b7c6-80056384759f)
 
+
 ---
+
 
 **IEEE-1857.2 Encoder**
 ![image](https://github.com/user-attachments/assets/28c4332f-062c-4f83-bee5-327cf28ab6a0)
