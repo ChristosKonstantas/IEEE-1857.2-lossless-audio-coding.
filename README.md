@@ -36,10 +36,12 @@ Execute: IEEE_1857dot2.m
 
 
 **IEEE-1857.2 Encoder**
+
 ![image](https://github.com/user-attachments/assets/28c4332f-062c-4f83-bee5-327cf28ab6a0)
 
 
 **IEEE-1857.2 Decoder**
+
 ![image](https://github.com/user-attachments/assets/f930f378-164a-4e1a-a4d1-32ea6adf0e6c)
 
 ---
