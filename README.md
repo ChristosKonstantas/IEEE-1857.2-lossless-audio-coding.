@@ -1,7 +1,5 @@
 # IEEE-1857.2-lossless-audio-coding.
 
-Run IEEE_1857dot2.m file from your directory.
-
 In this code we implement the IEEE 1857.2 lossless audio coding extension using 5 different source coding techniques: 
 1) [Arithmetic Coding](https://en.wikipedia.org/wiki/Arithmetic_coding) using the actual probability mass function of the source (benchmark).
 2) Arithmetic Coding using an estimated probability mass function of the source.
@@ -12,7 +10,7 @@ In this code we implement the IEEE 1857.2 lossless audio coding extension using 
 
 
 
-Execute: IEEE_1857dot2.m
+Clone repository to your local directory and execute: [IEEE_1857dot2.m](https://github.com/ChristosKonstantas/IEEE-1857.2-lossless-audio-coding./blob/main/IEEE_1857dot2.m)
 
 ---
 
