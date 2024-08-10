@@ -2,9 +2,9 @@
 
 In this code we implement the IEEE 1857.2 lossless audio coding extension using 5 different source coding techniques: 
 1) [Arithmetic Coding](https://en.wikipedia.org/wiki/Arithmetic_coding) using the actual probability mass function of the source (benchmark).
-2) Arithmetic Coding using an estimated probability mass function of the source.
+2) [Arithmetic Coding](https://www.cs.cmu.edu/~aarti/Class/10704/Intro_Arith_coding.pdf) using an [estimated probability mass function](https://mi.eng.cam.ac.uk/reports/svr-ftp/auto-pdf/robinson_tr156.pdf) of the source.
 3) [Golomb Coding](https://en.wikipedia.org/wiki/Golomb_coding) choosing m.
-4) Adaptive Golomb-Rice coding with exhaustive search for the best k where m=2^k -> slow encoding fast decoding.
+4) [Adaptive Golomb-Rice coding with exhaustive search for the best k where m=2^k](https://www.techbriefs.com/component/content/article/2433-npo-41336) -> slow encoding fast decoding.
 5) [Adaptive Exponential Golomb-coding](https://en.wikipedia.org/wiki/Exponential-Golomb_coding) with exhaustive search for the best k -> slow encoding fast decoding.
 6) [Adaptive Golomb-Rice coding](http://m.reznik.org/papers/ICASSP04_prediction_residual.pdf) -> fast encoding fast decoding. 
 
