@@ -15,11 +15,6 @@ Clone repository to your local directory and execute: [IEEE_1857dot2.m](https://
 ---
 
 
-**General implementation**
-
-![image](https://github.com/user-attachments/assets/adac4221-f27f-46d0-a145-6fbd6f4dfef4)
-
-
 **Linear predictive modeling (Analysis/Synthesis)**
 
 
@@ -43,4 +38,4 @@ Clone repository to your local directory and execute: [IEEE_1857dot2.m](https://
 
 **More information**
 
-This [thesis](https://github.com/ChristosKonstantas/IEEE-1857.2-lossless-audio-coding./blob/main/THESIS%20report.pdf) provides a comprehensive guide to lossless audio compression and coding. It includes a MATLAB-based implementation that emulates the [IEEE 1857.2 lossless audio coding extension](https://standards.ieee.org/ieee/1857.2/5549/) offering capabilites of experimenting with new source encoders/decoders. Also, to improve compression efficiency we may consider adding [ATC-ABS](https://ieeexplore.ieee.org/abstract/document/116122) method.
+Certain tables have been removed from this repository. The implementation is an independent research reproduction for educational purposes only. This [thesis](https://github.com/ChristosKonstantas/IEEE-1857.2-lossless-audio-coding./blob/main/THESIS%20report.pdf) provides a comprehensive guide to lossless audio compression and coding. It includes a MATLAB-based implementation that applies the [IEEE 1857.2 lossless audio coding extension](https://standards.ieee.org/ieee/1857.2/5549/) offering capabilites of experimenting with new source encoders/decoders.
